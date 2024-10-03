@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded",
     const element  = document.querySelector("#S");
     
       if(element) {
-        element.addEventListener("click" , startPrint)
+        element.addEventListener("click" , startPrint);
      } else {
         console.log("Element not found");
         
@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded",
      const element2  = document.querySelector("#St");
     
       if(element2) {
-        element2.addEventListener("click" , stopPrint)
+        element2.addEventListener("click" , stopPrint);
      } else {
         console.log("Element not found");
         
